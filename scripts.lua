@@ -56,7 +56,8 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Pets"] = {
         ["Buy"]            = { 
-            "Raccoon", 
+            "Raccoon",
+			"Butterfly",
             "Swan", 
             "ShadowDragon", 
             "Fox", 
