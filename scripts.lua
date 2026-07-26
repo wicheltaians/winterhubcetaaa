@@ -55,7 +55,6 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Pets"] = {
         ["Buy"]            = { 
             "Raccoon", 
-            "Butterfly",
             "Swan", 
             "ShadowDragon", 
             "Fox", 
@@ -100,7 +99,6 @@ _G.GAGConfig = _G.GAGConfig or {
                 "Sun Bloom",
                 "Star Fruit",
                 "Raccoon",
-                "Butterfly",
                 "Rare Seed Pack",
                 "Epic Seed Pack",
                 "Legendary Seed Pack",
