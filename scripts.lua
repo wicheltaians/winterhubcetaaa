@@ -28,7 +28,6 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Never Shovel"] = {},                
         ["Shovel Up To"] = "",               
         ["Buy Seeds"]    = {
-	          ["Bamboo"] = 9999,
             ["Venom Spitter"] = 999,
             ["Moon Bloom"] = 999,
             ["Hypno Bloom"] = 999,
@@ -94,7 +93,6 @@ _G.GAGConfig = _G.GAGConfig or {
                 { Item = "Gold", Count = 30 },
                 { Item = "Rainbow", Count = 20 },
                 { Item = "Mega", Count = 30 },
-                { Item = "Bamboo", Count = 3000 },
                 { Item = "Venom Spitter", Count = 5 },
                 "Moon Bloom",
                 "Dragon's Breath",
@@ -132,7 +130,7 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Auction"] = {
         ["Auto Buy"] = true,
         ["Buy"] = {
-            ["Common Egg"] = 35000000,
+            ["Common Egg"] = 25000000,
             ["Uncommon Seed Pack"] = 1000000,
             ["Super Watering Can"] = 20000000,
         },
@@ -147,7 +145,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
 
     ["Performance"] = {
-        ["FPS Cap"]              = 50,        
+        ["FPS Cap"]              = 30,        
         ["Low Graphics"]         = true,      
         ["Remove Other Gardens"] = true,      
         ["Hide Crop Visuals"]    = true,      
