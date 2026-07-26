@@ -103,7 +103,7 @@ _G.GAGConfig = _G.GAGConfig or {
                 "Epic Seed Pack",
                 "Legendary Seed Pack",
                 { Item = "Uncommon Seed Pack", Count = 50 },
-                { Item = "Common Egg", Count = 5 },
+                { Item = "Common Egg", Count = 6 },
                 { Item = "Super Sprinkler", Count = 5 }, 
                 { Item = "Super Watering Can", Count = 5 },
             },
