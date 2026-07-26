@@ -107,7 +107,7 @@ _G.GAGConfig = _G.GAGConfig or {
                 "Epic Seed Pack",
                 "Legendary Seed Pack",
                 { Item = "Uncommon Seed Pack", Count = 50 },
-                { Item = "Common Egg", Count = 10 },
+                { Item = "Common Egg", Count = 5 },
                 { Item = "Super Sprinkler", Count = 5 }, 
                 { Item = "Super Watering Can", Count = 5 },
             },
@@ -132,7 +132,7 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Auction"] = {
         ["Auto Buy"] = true,
         ["Buy"] = {
-            ["Common Egg"] = 25000000,
+            ["Common Egg"] = 35000000,
             ["Uncommon Seed Pack"] = 1000000,
             ["Super Watering Can"] = 20000000,
         },
