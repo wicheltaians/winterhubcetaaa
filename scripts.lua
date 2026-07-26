@@ -13,15 +13,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Only Plant"]  = {},                 
         ["Minimum Seed"] = "",                
         ["Layout"]      = "compact",          
-        ["Don't Plant"] = {
-            ["Dragon's Breath"] = true,
-            ["Hypno Bloom"] = true,
-            ["Moon Bloom"] = true,
-            ["Venom Spitter"] = true,
-            ["Gold"] = true,
-            ["Mega"] = true,
-            ["Rainbow"] = true,
-        },                 
+        ["Don't Plant"] = {},                 
         ["Don't Buy"]   = {},                 
         ["Keep Seeds"]  = {},
         ["Plant Limit"] = 0,                  
@@ -34,10 +26,6 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Dragon's Breath"] = 999,
             ["Sun Bloom"] = 999,
             ["Star Fruit"] = 999,
-            ["Atlantic Giant Pumpkin"] = 999,
-            ["Plum"] = 999,
-            ["Cinnamon Stick"] = 999,
-            ["Conifer Cone"] = 999,
         },              
     },
     ["Money"] = {
@@ -55,14 +43,6 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Pets"] = {
         ["Buy"]            = { 
             "Raccoon", 
-            "Swan", 
-            "ShadowDragon", 
-            "Fox", 
-            "Dog", 
-            "Squirrel", 
-            "Wolf",
-            "Turkey",
-            "Hedgehog",
         }, 
         ["Equip"]          = {},    
         ["Auto Buy Slots"] = false,           
@@ -89,7 +69,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Accept Gift"] = true,          
         ["Send To"]    = "gzx08562929",                                   
         ["Send"]       = {                 
-                { Item = "Gold", Count = 30 },
+                { Item = "Gold", Count = 50 },
                 { Item = "Rainbow", Count = 20 },
                 { Item = "Mega", Count = 30 },
                 { Item = "Venom Spitter", Count = 5 },
@@ -113,11 +93,11 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Show Stats"]            = true,     
         ["Hide Game UI"]          = false,     
         ["Show Console"]          = false,    
-        ["Smart Travel"]          = true,     
-        ["Auto Daily Deal"]       = true,     
+        ["Smart Travel"]          = false,     
+        ["Auto Daily Deal"]       = false,     
         ["Walk Speed"]            = 50,       
         ["Slide Speed"]           = 50,       
-        ["Fast Travel"]           = true,    
+        ["Fast Travel"]           = false,    
         ["Teleport"]              = true,   
     },
     ["Friends"] = {
@@ -143,7 +123,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
 
     ["Performance"] = {
-        ["FPS Cap"]              = 30,        
+        ["FPS Cap"]              = 20,        
         ["Low Graphics"]         = true,      
         ["Remove Other Gardens"] = true,      
         ["Hide Crop Visuals"]    = true,      
@@ -152,7 +132,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Debug"] = {
         ["Log To File"] = true,   
-        ["Console"]     = true,   
+        ["Console"]     = false,   
     },
 }
 
