@@ -108,7 +108,7 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Auction"] = {
         ["Auto Buy"] = true,
         ["Buy"] = {
-            ["Common Egg"] = 25000000,
+            ["Common Egg"] = 35000000,
             ["Uncommon Seed Pack"] = 1000000,
             ["Super Watering Can"] = 20000000,
         },
@@ -123,7 +123,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
 
     ["Performance"] = {
-        ["FPS Cap"]              = 20,        
+        ["FPS Cap"]              = 15,        
         ["Low Graphics"]         = true,      
         ["Remove Other Gardens"] = true,      
         ["Hide Crop Visuals"]    = true,      
